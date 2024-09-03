@@ -14,7 +14,7 @@
   [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
   }
   
   .col-1 {width: 8.33%;}
@@ -115,7 +115,7 @@
     margin-top: 5px;
 }  
 .p i {
-    color: red;
+   color: red;
     margin-right: 2px;
 }
 /* end logo-sec */
@@ -275,5 +275,10 @@ aside {
 }
 .r-center span:hover{
     color: blue;
+}
+.section-center {
+    border-style: solid;
+    border-color: white gray white gray;
+    border-width: 3px;
 }
 
